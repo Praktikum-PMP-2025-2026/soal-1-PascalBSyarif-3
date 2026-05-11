@@ -50,13 +50,19 @@ int main(){
     
     printf("MAX_VERTEX %d\n", maxI);
     printf("ISOLATED");
+    int flag = 0;
     for (int i = 0; i < N; i++)
     {
         if (isolated[i] == 1)
         {
             printf(" %d", i);
+            flag = 1;
         }
-        
     }
+    if (flag == 1)
+    {
+        printf(" NONE");
+    }
+    
     
 }
