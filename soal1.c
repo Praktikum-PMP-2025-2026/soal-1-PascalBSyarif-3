@@ -48,7 +48,7 @@ int main(){
         printf("DEGREE %d %d\n", i, degree);
     }
     
-    printf("MAX VERTEX %d\n", maxI);
+    printf("MAX_VERTEX %d\n", maxI);
     printf("ISOLATED");
     for (int i = 0; i < N; i++)
     {
