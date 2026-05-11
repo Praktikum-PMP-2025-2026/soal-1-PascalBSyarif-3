@@ -59,7 +59,7 @@ int main(){
             flag = 1;
         }
     }
-    if (flag == 1)
+    if (flag == 0)
     {
         printf(" NONE");
     }
